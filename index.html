@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="HTML, CSS, JavaScript,nexusinfo">
+  <meta name="description" content="this is just a  project website for nexus">
+  <link rel="icon" type="image/x-icon" href="images/logo2.jpg">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/4623a1402b.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+  <title>Nexus Info</title>
+</head>
+
+<body>
+
+  <div class=" w-full sticky top-0 bg-slate-900 text-white z-[5]">
+    <nav class="container mx-auto flex items-center justify-between py-4 ">
+      <div class="flex items-center">
+        <a href="index.html" class="text-2xl font-semibold space-x-2 tracking-widest">NE<b
+            class=" relative top-[1px]  text-4xl bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient  ">X</b>US
+        </a>
+      </div>
+      <div class="hidden space-x-1 md:flex md:space-x-5">
+
+        <a href="#our Clients" class="hover:text-green-300">Our Clients</a>
+        <a href="#work" class="hover:text-green-300">Work</a>
+        <!-- <a href="#" class="hover:text-green-300 ">Resources</a> -->
+        <a href="#contact" class="hover:text-green-300">Contact Us</a>
+      </div>
+      <button class="md:hidden text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </nav>
+  </div>
+
+
+  <!-- section1  -->
+  <section class="  text-center bg-slate-300 space-y-2 text-cyan-900  " id="hero">
+
+    <h1 class="text-5xl font-extrabold mb-3 " style="font-family: Josefin Sans;"> Making Connections Easier</h1>
+    <p>Connecting and Managing Devices Worldwide</p>
+
+    <!-- carosaul  -->
+    <div id="carouselExampleFade" class=" w-full md:w-3/4 mx-auto carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/software development.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/evolution.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/new devices.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- content  -->
+
+    <div class=" text-center grid grid-cols-1 md:grid-cols-3 box-border md:p-5" id="our Clients">
+      <div class="m-5 box-border border p-3 space-y-4">
+        <h2 class="text-2xl" style=" font-weight: bolder;">Developers</h2>
+        <p>As a developer in the Financial Industry, you are aware of the vast amounts of detailed and specific
+          information needed to keep things moving. With our integrated and consistent APIs you have built-in options
+          and less work but still have flexibility.</p>
+        <button class=" border-2 rounded-s-xl font-bold p-2 bg-slate-400 hover:bg-white"><a href="">Learn
+            More</a></button>
+      </div>
+
+      <div class="m-5 box-border border p-3 space-y-4 ">
+        <h2 class="text-2xl" style=" font-weight: bolder;">Application Vendors</h2>
+        <p>If banking applications are your business then you know how intricate these systems are. Having an expert
+          covering the device aspect of this wide-ranging field leaves you and your team open to focus on the rest of
+          your product </p>
+        <button class=" border-2 rounded-s-xl font-bold p-2 bg-slate-400 hover:bg-white"><a href="">Learn
+            More</a></button>
+      </div>
+
+      <div class="m-5 box-border p-3 border space-y-4  ">
+        <h2 class="text-2xl" style=" font-weight: bolder;">End Users</h2>
+        <p>We have been making devices work within our user's environments for over 30 years. Our experience and
+          knowledge make for the perfect expert in your corner. We offer solutions for every financial institution, from
+          3 workstations to 3,000. </p>
+        <button class="border-2 rounded-s-xl font-bold p-2 bg-slate-400 
+         hover:bg-white"><a href="">Learn
+            More</a></button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- section 2 -->
+  <section class="text-white bg-slate-900" id="work">
+    <h1 class="text-center font-extrabold text-4xl p-7 text-green-100">WHAT WE DO</h1>
+    <div class="flex flex-col md:flex-row justify-center w-3/4 mx-auto">
+      <!-- part1 -->
+      <div class="hidden md:block w-1/2 box-border p-7">
+        <img class="w-[20rem] relative top-[15px] left-[10px] z-[1]"
+          src="images/Add Remote Workstation_edited_edited.webp" alt="">
+        <img class="w-[17rem] relative right-[-150px] top-[-50px] z-[5]" src="images/6_1 Main ECU Window_PNG.webp"
+          alt="">
+      </div>
+      <!-- part2  -->
+      <div class=" black w-full md:w-1/2 box-border p-7 space-y-6 ">
+        <h2 class="text-2xl font-extrabold text-green-300 ">Solutions</h2>
+        <p class="text-lg pr-8">Whether you need the flexibility and stability of Nexus Evolution™ or you are ready to
+          use the information from your devices to help inform your decision-making, our solutions can help you to make
+          the most of your hardware investment. </p>
+      </div>
+
+
+    </div>
+
+    <div class="flex flex-col md:flex-row justify-center w-3/4 mx-auto">
+      <!-- left  -->
+      <div class="box-border w-full  md:w-1/2 p-10 space-y-6 text-left">
+        <h2 class="text-2xl font-extrabold text-green-300 ">Services</h2>
+
+        <p class="text-left my-auto  text-lg">The retail banking world is complex. Technology and information needs are
+          evolving at a fast pace. The hardware is typically a mix of old and new. The team at Nexus knows that meeting
+          all of these often conflicting needs can be difficult. When it comes to creating an environment that works for
+          your unique business, we can help. </p>
+      </div>
+      <!-- right  -->
+      <div class="box-border w-full md:w-1/2 ">
+        <img class=" bg-cover p-10" src="images/In a Meeting   .webp" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- section 3 -->
+  <section>
+    <div id="carouselExampleFade" class=" w-full mx-auto carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/img1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/img2.png" class="d-
+          block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/img3.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class=" hidden carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class=" hidden carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- feedback section  -->
+  <section class="bg-slate-900 font-bold ">
+    <div class="w-3/4 mx-auto p7">
+      <p class=" text-sm md:text-xl text-cyan-100 text-center text-green-300"> Contact us</p>
+      <h1 class=" text-xl md:text-3xl font-extrabold text-cyan-100 m-5 " style="font-family:Protest Guerrilla  ;">Have
+        any questions? Wondering if our solutions or expertise can benefit you? Reach out - we're here to have a
+        conversation and provide assistance, Regarding our software services!</h1>
+      <form class=" space-y-2 flex flex-col" id="contact">
+        <!-- alert  -->
+        <div class="alertmessage"> message sent successfully</div>
+        <!-- ....  -->
+
+        <div class="  grid grid-cols-1 gap-1  md:grid-cols-2 md:space-x-2 ">
+          <!-- name  -->
+
+          <div class=" w-full  ">
+            <input type="text" name="name" placeholder="Name" id="name" class=" w-full px-3 border-2 rounded-[10px] ">
+
+          </div>
+          <!-- email  -->
+          <div class=" w-full ">
+            <input type="email" name="email_id" placeholder=" Email" id="email"
+              class="  w-full px-3 border-2 rounded-[10px] ">
+          </div>
+        </div>
+        <!-- message  -->
+        <div class="w-full m-2">
+
+          <br>
+          <textarea id="feedback" name="feedback" rows="7" placeholder="Message"
+            class="w-full border-2 rounded-[10px]"></textarea>
+        </div>
+        <!-- <a href="#" class=" mx-auto w-1/2 box-border border-2 rounded-[50px] bg-cyan-100 text-cyan-900 text-center 
+        p-[1px]  hover:bg-white" id="submit" >submit</a> -->
+        <button id="submit" type="submit"
+          class=" mx-auto w-1/2 bg-cyan-100 text-cyan-900 hover:bg-white p-[1px] border-2 rounded-[50px] ">submit</button>
+      </form>
+
+      
+
+
+    </div>
+     
+    <footer class="text-white items-center">
+      <p>Coimbatore south, Tamilnadu</p>
+      <br>
+      <a href="mailto:contact.nexusinfo@gmail.com"> <i class="fa-regular fa-envelope"></i> Mail Us</a>
+      <br>
+      <a href="tel:+91 8778993293"> <i class="fa fa-phone-square" aria-hidden="true" ></i> Call Now</a>
+      
+     </footer>
+  </section>
+
+
+
+
+
+  <!-- JavaScript to toggle the button (optional) -->
+  <script>
+    const button = document.querySelector('button');
+    const navLinks = document.querySelector('.hidden');
+
+    button.addEventListener('click', () => {
+      navLinks.classList.toggle('hidden');
+    });
+  </script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="config.js"></script>
+</body>
+
+</html>
+
+

@@ -1,0 +1,12 @@
+
+
+.alertmessage{
+    width: 100%;
+    background: rgb(0,225,106);
+    padding:0;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    display: none;
+}
